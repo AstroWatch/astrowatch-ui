@@ -1,19 +1,5 @@
-.horoscope {
-    width: 100%;
-    height: 100%;
-    border-radius: 3px;
-    margin: 5px;
-    box-shadow:
-        inset 1px 1px 1px #242c3a,
-        inset -1px -1px 1px #364256;
-
-    display: grid;
-    grid-template-columns: 10px 1fr 10px;
-    grid-template-rows: 10px 1fr 10px;
-}
-
 .hint-house-owner {
-    font-size: 1.5pt;
+    font-size: 10pt;
     color: #718096;
 
     display: grid;

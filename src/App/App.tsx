@@ -1,13 +1,18 @@
 import React from 'react';
-import './App.css';
+import styled from 'styled-components';
 import Horoscope from '../Horoscope';
+
+const HoroscopeContainer = styled.div`
+    width: 1000px;
+    height: 1000px;
+`;
 
 export default function App() {
     return (
         <div className="app">
-            <div className="horoscope-container">
+            <HoroscopeContainer>
                 <Horoscope />
-            </div>
+            </HoroscopeContainer>
         </div>
     );
 }
